@@ -80,19 +80,18 @@ experiences:
     title: Experiences
     info:
       - role: Software Engineer (Freelancer)
-        time: 2024- Present
+        time: 2024 - Present
         company: UpWork Inc
         details: |
           I help project owners deliver custom software solutions, collaborating closely to meet their needs with scalable, high-quality results. 
       
-       - role: Full Stack Developer
-        time: 2020- 2024
+      - role: Full Stack Developer
+        time: 2020 - 2024
         company: CodeNord, Morocco
         details: |
           Building full stack, scalable web applications, integrated APIs, optimized databases, and ensured seamless user experiences. I collaborated with cross-functional teams to deliver high-quality solutions and followed best practices for clean, maintainable code.
-       
-       - role: PHP Developer
-        time: 2013- 2020
+      - role: PHP Developer
+        time: 2013 - 2020
         company: DigitalX Rabat, Morocco
         details: |
           I designed and maintained web applications using Laravel, implemented RESTful APIs, optimized MySQL databases, and ensured performance and scalability while collaborating my team. 
@@ -107,8 +106,7 @@ certifications:
           credentialid: 780114d3-3187-4120-b3b7-9452ddc5f4d8
           credentialurl: https://www.life-global.org/certificate/780114d3-3187-4120-b3b7-9452ddc5f4d8
           credentialname: HP LIFE
-          details: |
-            Define MVP, understand iterative vs. incremental development, and analyze Agile tools (Scrum, Kanban). Apply Agile methods to boost project management and product development.
+          details: Define MVP, understand iterative vs. incremental development, and analyze Agile tools (Scrum, Kanban). Apply Agile methods to boost project management and product development.
         
         - name: JavaScript Algorithms and Data Structures
           start: 2023
@@ -117,8 +115,7 @@ certifications:
           credentialid: 
           credentialurl: https://www.freecodecamp.org/certification/cnabil/javascript-algorithms-and-data-structures-v8
           credentialname: FreeCodeCamp
-          details: |
-            This course covers fundamental algorithms and data structures, including sorting, searching, and dynamic programming. You'll learn how to implement these algorithms in JavaScript and apply them to real-world problems.
+          details: This course covers fundamental algorithms and data structures, including sorting, searching, and dynamic programming. You'll learn how to implement these algorithms in JavaScript and apply them to real-world problems.
         - name: Responsive Web Design
           start: 2023
           end: 2023
@@ -126,8 +123,7 @@ certifications:
           credentialid: 
           credentialurl: https://www.freecodecamp.org/certification/cnabil/responsive-web-design
           credentialname: FreeCodeCamp
-          details: |
-            This course teaches you how to create responsive websites that adapt to different screen sizes and devices. You'll learn how to use CSS media queries, flexbox, and grid layouts to create a responsive design that looks great on any device.
+          details: This course teaches you how to create responsive websites that adapt to different screen sizes and devices. You'll learn how to use CSS media queries, flexbox, and grid layouts to create a responsive design that looks great on any device.
 
 # projects:
 #     title: Projects
@@ -170,19 +166,14 @@ skills:
     toolset:
       - name: PHP/Laravel
         level: 90%
-
       - name: MySQL /Postgresql
         level: 80%
-
       - name: React/Next.js
         level: 70%
-
       - name: Node.js/Express
         level: 60%
-
       - name: Git / GitHub
         level: 75%
-
       - name: DevOps / Cloud Management
         level: 60%
 
