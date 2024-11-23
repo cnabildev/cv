@@ -15,11 +15,11 @@ sidebar:
     # Sidebar links
     email: hi@cnabil.dev
     phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship: Morocco/Casablanca
+    timezone: Morocco/Casablanca 
+    citizenship: Moroccan
     website: https://cnabil.dev/ # Include the full website URL, including "http://" or "https://".
     linkedin: cnabildev
-    xing: cnabildev
+    leetcode: cnabildev
     github: cnabildev
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -264,5 +264,4 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://cnabil.dev" target="_blank" rel="nofollow">CNabil</a>
+footer: 
