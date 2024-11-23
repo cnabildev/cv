@@ -128,6 +128,7 @@ certifications:
           credentialname: FreeCodeCamp
           details: |
             This course teaches you how to create responsive websites that adapt to different screen sizes and devices. You'll learn how to use CSS media queries, flexbox, and grid layouts to create a responsive design that looks great on any device.
+
 # projects:
 #     title: Projects
 #     intro: >
@@ -139,21 +140,6 @@ certifications:
 #         link: "#hook"
 #         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 # oss:
 #     title: OSS Contributions
@@ -166,14 +152,6 @@ certifications:
 #         link: "#"
 #         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 # publications:
 #     title: Publications
 #     intro: |
@@ -185,16 +163,6 @@ certifications:
 #         link: "#"
 #         authors: Donald E. Knuth
 #         conference: Addison-Wesley, 1968
-
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-#       - title: A syntax directed compiler for Algol 60
-#         link: "#"
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
