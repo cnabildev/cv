@@ -1,129 +1,129 @@
 sidebar:
-    position: right 
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: CHERRADI NABIL Mouhssine
-    tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: CHERRADI NABIL Mouhssine
+  tagline: Software Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hi@cnabil.dev
-    phone: +212 6 34 04 01 21 
-    timezone: Morocco/Casablanca 
-    website: https://cnabil.dev/ # Include the full website URL, including "http://" or "https://".
-    linkedin: cnabildev
-    github: cnabildev
-    # telegram: # add your nickname without '@' sign
-    # gitlab:
-    # bitbucket:
-    twitter: '@cnabildev'
-    # stack-overflow: # Number/Username, e.g. 123456/alandoe
-    # codewars:
-    # goodreads: # Number-Username, e.g. 123456-alandoe
-    # mastodon:  # Please include your full Mastodon link here.
-    hackerrank: cnabildev
-    leetcode: cnabildev
-    # pdf: Add a PDF link here if you want to include a PDF custom version in your resume.
+  # Sidebar links
+  email: Hi@cnabil.dev
+  phone: +212634040121
+  timezone: Morocco/Casablanca
+  website: https://cnabil.dev/
+  linkedin: cnabildev
+  github: cnabildev
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  twitter: "@cnabildev"
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon:  # Please include your full Mastodon link here.
+  hackerrank: cnabildev
+  leetcode: cnabildev
+  # pdf: Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Arabic
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Arabic
+        level: Native
 
-        - idiom: French
-          level: Professional
+      - idiom: French
+        level: Professional
 
-        - idiom: English
-          level: Professional
+      - idiom: English
+        level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Fitness
-          link:
-
-        - item: Reading
-          link:
-
-        - item: Traveling
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Reading
+        link:
+      - item: Traveling
+        link:
+      - item: Cooking
+        link:
 
 career-profile:
-    title: About Me
-    summary: |
-      Hi, I'm Nabil, a Software Engineer with 5+ years of experience delivering high-performance and secure web solutions. Driven by a passion for innovation, I tackle daily coding challenges to sharpen my skills and stay at the forefront of emerging technologies. I specialize in crafting efficient, secure, and optimized web applications that exceed functionality expectations while ensuring robust protection against potential threats.
+  title: About Me
+  summary: |
+    Hi, I'm Nabil, a Software Engineer with 5+ years of experience delivering high-performance and secure web solutions. Driven by a passion for innovation, I tackle daily coding challenges to sharpen my skills and stay at the forefront of emerging technologies. I specialize in crafting efficient, secure, and optimized web applications that exceed functionality expectations while ensuring robust protection against potential threats.
 education:
-    title: Education
-    info:
-      - degree: Software Engineer Diploma
-        university: Holberton school , USA
-        time: 2023- 2025
-        details: |
-          DescriPursuing a hands-on software engineering program focused on full-stack development, algorithms, and modern software methodologies.
-      
-      - degree: Specialized Technician Diploma
-        university: OFPPT FES, MOROCCO
-        time: 2011 - 2013
-        details: |
-          Specialized in IT infrastructure, systems administration, and software development with practical training.
-      
-      - degree: High School Diploma
-        university: Ibn khaldoun High School
-        time: 2008- 2011
-        details: |
-          Completed studies with a focus on science and mathematics, preparing for higher education in technology. 
+  title: Education
+  info:
+    - degree: Software Engineer Diploma
+      university: ALX , Holberton school , USA
+      time: 2023- 2025
+      details: |
+        A hands-on software engineering program focused on full-stack development, algorithms, and modern software methodologies.
+
+    - degree: Specialized Technician Diploma
+      university: OFPPT, MOROCCO
+      time: 2011 - 2013
+      details: |
+        Specialized in IT infrastructure, systems administration, and software development with practical training.
+
+    - degree: High School Diploma
+      university: Ibn Khaldoun HS , MOROCCO
+      time: 2008- 2011
+      details: |
+        Completed studies with a focus on science and mathematics, preparing for higher education in technology.
 
 experiences:
-    title: Experiences
-    info:
-      - role: Software Engineer (Freelancer)
-        time: 2024 - Present
-        company: UpWork Inc
-        details: |
-          I help project owners deliver custom software solutions, collaborating closely to meet their needs with scalable, high-quality results. 
-      
-      - role: Full Stack Developer
-        time: 2020 - 2024
-        company: CodeNord, Morocco
-        details: |
-          Building full stack, scalable web applications, integrated APIs, optimized databases, and ensured seamless user experiences. I collaborated with cross-functional teams to deliver high-quality solutions and followed best practices for clean, maintainable code.
-      - role: PHP Developer
-        time: 2013 - 2020
-        company: DigitalX Rabat, Morocco
-        details: |
-          I designed and maintained web applications using Laravel, implemented RESTful APIs, optimized MySQL databases, and ensured performance and scalability while collaborating my team. 
+  title: Experiences
+  info:
+    - role: Software Engineer
+      time: 2024 - Present
+      company: UpWork (Freelancer)
+      details: |
+        I help project owners deliver custom software solutions, collaborating closely to meet their needs with scalable, high-quality results.
+
+    - role: Full Stack Developer
+      time: 2020 - 2024
+      company: CodeNord, Morocco
+      details: |
+        Building full stack, scalable web applications, integrated APIs, optimized databases, and ensured seamless user experiences. I collaborated with cross-functional teams to deliver high-quality solutions and followed best practices for clean, maintainable code.
+
+    - role: PHP Developer
+      time: 2013 - 2020
+      company: DigitalX Rabat, Morocco
+      details: |
+        I designed and maintained web applications using PHP, implemented RESTful APIs, optimized MySQL databases, and ensured performance and scalability while collaborating my team.
 
 certifications:
-      title: Certifications
-      list:
-        - name: Agile Project Management
-          start: 2024
-          end: 2024
-          organization: HP
-          credentialid: 780114d3-3187-4120-b3b7-9452ddc5f4d8
-          credentialurl: https://www.life-global.org/certificate/780114d3-3187-4120-b3b7-9452ddc5f4d8
-          credentialname: HP LIFE
-          details: Define MVP, understand iterative vs. incremental development, and analyze Agile tools (Scrum, Kanban). Apply Agile methods to boost project management and product development.
-        
-        - name: JavaScript Algorithms and Data Structures
-          start: 2023
-          end: 2023
-          organization: FreeCodeCamp
-          credentialid: 
-          credentialurl: https://www.freecodecamp.org/certification/cnabil/javascript-algorithms-and-data-structures-v8
-          credentialname: FreeCodeCamp
-          details: This course covers fundamental algorithms and data structures, including sorting, searching, and dynamic programming. You'll learn how to implement these algorithms in JavaScript and apply them to real-world problems.
-        - name: Responsive Web Design
-          start: 2023
-          end: 2023
-          organization: FreeCodeCamp
-          credentialid: 
-          credentialurl: https://www.freecodecamp.org/certification/cnabil/responsive-web-design
-          credentialname: FreeCodeCamp
-          details: This course teaches you how to create responsive websites that adapt to different screen sizes and devices. You'll learn how to use CSS media queries, flexbox, and grid layouts to create a responsive design that looks great on any device.
+  title: Certifications
+  list:
+    - name: Agile Project Management
+      start: 2024
+      end:
+      organization: HP LIFE
+      credentialid:
+      credentialurl: https://www.life-global.org/certificate/780114d3-3187-4120-b3b7-9452ddc5f4d8
+      credentialname: Certificate
+      details: Define MVP, understand iterative vs. incremental development, and analyze Agile tools (Scrum, Kanban). Apply Agile methods to boost project management and product development.
+
+    - name: JavaScript Algorithms and Data Structures
+      start: 2023
+      end:
+      organization: FreeCodeCamp
+      credentialid:
+      credentialurl: https://www.freecodecamp.org/certification/cnabil/javascript-algorithms-and-data-structures-v8
+      credentialname: Certificate
+      details: Fundamental algorithms and data structures, including sorting, searching, and dynamic programming. You'll learn how to implement these algorithms in JavaScript and apply them to real-world problems.
+
+    - name: Responsive Web Design
+      start: 2023
+      end:
+      organization: FreeCodeCamp
+      credentialid:
+      credentialurl: https://www.freecodecamp.org/certification/cnabil/responsive-web-design
+      credentialname: Certificate
+      details: Create responsive websites that adapt to different screen sizes and devices. You'll learn how to use CSS media queries, flexbox, and grid layouts to create a responsive design that looks great on any device.
 
 # projects:
 #     title: Projects
@@ -135,7 +135,6 @@ certifications:
 #       - title: Velocity
 #         link: "#hook"
 #         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
 
 # oss:
 #     title: OSS Contributions
@@ -161,20 +160,20 @@ certifications:
 #         conference: Addison-Wesley, 1968
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: PHP/Laravel
-        level: 90%
-      - name: MySQL /Postgresql
-        level: 80%
-      - name: React/Next.js
-        level: 70%
-      - name: Node.js/Express
-        level: 60%
-      - name: Git / GitHub
-        level: 75%
-      - name: DevOps / Cloud Management
-        level: 60%
+  toolset:
+    - name: PHP/Laravel
+      level: 90%
+    - name: MySQL /Postgresql
+      level: 80%
+    - name: React/Next.js
+      level: 70%
+    - name: Node.js/Express
+      level: 75%
+    - name: Git / GitHub
+      level: 75%
+    - name: DevOps / Cloud Management
+      level: 70%
 
-footer: 
+footer:
