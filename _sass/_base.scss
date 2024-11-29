@@ -80,7 +80,7 @@ p {
     //used for profile image
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 0 solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
@@ -124,13 +124,13 @@ p {
     .meta {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       margin-top: 0;
     }
     .time {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
   }
   .languages-container {
@@ -272,12 +272,12 @@ p {
     margin-bottom: 12px;
   }
   .level-bar {
-    height: 12px;
+    height: 8px;
     background: $smoky-white;
   }
   .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
+    height: 8px;
+    background: lighten($theme-color, 05%);
   }
 }
 
@@ -292,5 +292,10 @@ p {
   .fa-heart {
     color: $heart;
   }
+}
+
+img.avatar {
+  background-color: white;
+  max-width: 200px !important;
 }
 

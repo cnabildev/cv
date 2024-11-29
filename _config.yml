@@ -8,9 +8,9 @@ url: 'http://webjeda.com'
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: A beautiful Jekyll theme for creating resume
+description: Software Engineer with 5+ years of experience delivering high-performance and secure web solutions. Driven by a passion for innovation, I tackle daily coding challenges to sharpen my skills and stay at the forefront of emerging technologies. My expertise lies in developing efficient and scalable solutions that seamlessly integrate functionality and security. Whether collaborating with cross-functional teams or leading projects, I am committed to exceeding expectations and driving innovation in every endeavor.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic teal oceanstale
+theme_skin: cnabil # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
