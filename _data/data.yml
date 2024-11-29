@@ -9,9 +9,9 @@ sidebar:
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: Hi@cnabil.dev
+  email: M.cherradinabil@gmail.com
   phone: +212634040121
-  timezone: Morocco/Casablanca
+  timezone: Morocco/Casablanca GMT+1
   website: https://cnabil.dev/
   linkedin: cnabildev
   github: cnabildev
@@ -52,7 +52,8 @@ sidebar:
 career-profile:
   title: About Me
   summary: |
-    Hi, I'm Nabil, a Software Engineer with 5+ years of experience delivering high-performance and secure web solutions. Driven by a passion for innovation, I tackle daily coding challenges to sharpen my skills and stay at the forefront of emerging technologies. I specialize in crafting efficient, secure, and optimized web applications that exceed functionality expectations while ensuring robust protection against potential threats.
+    I’m Nabil, a Software Engineer with over 5 years of experience in designing and delivering secure, high-performance web applications. Passionate about solving complex challenges, I continuously refine my skills through daily coding exercises and staying ahead of the latest technology trends. My expertise lies in developing efficient and scalable solutions that seamlessly integrate functionality and security. Whether collaborating with cross-functional teams or leading projects, I am committed to exceeding expectations and driving innovation in every endeavor.
+
 education:
   title: Education
   info:
@@ -78,7 +79,7 @@ experiences:
   title: Experiences
   info:
     - role: Software Engineer
-      time: 2024 - Present
+      time: 2024 - 2025
       company: UpWork (Freelancer)
       details: |
         I help project owners deliver custom software solutions, collaborating closely to meet their needs with scalable, high-quality results.
@@ -160,20 +161,39 @@ certifications:
 #         conference: Addison-Wesley, 1968
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Technical Skills
   toolset:
     - name: PHP/Laravel
       level: 90%
-    - name: MySQL /Postgresql
-      level: 80%
-    - name: React/Next.js
-      level: 70%
+
     - name: Node.js/Express
       level: 75%
-    - name: Git / GitHub
-      level: 75%
-    - name: DevOps / Cloud Management
+
+    - name: MySQL /Postgresql
+      level: 80%
+
+    - name: React/Next.js
       level: 70%
+
+    - name: DevOps
+      level: 75%
+
+    - name: Cloud Management
+      level: 70%
+
+soft_skills:
+  title: Soft Skills
+  toolset:
+    - name: Problem-Solving
+      level: 90%
+
+    - name: Communication
+      level: 90%
+
+    - name: Teamwork & Collaboration
+      level: 85%
+
+    - name: Adaptability & Learning Agility
+      level: 95%
 
 footer:
