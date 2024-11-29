@@ -1,15 +1,21 @@
-{% assign skills = site.data.data.skills %} {% if skills %}
+{% assign technical_skills = site.data.data.technical_skills %}
+{% assign soft_skills = site.data.data.soft_skills %}
+
+<!--TECHNICAL SKILLS-->
+{% if technical_skills %}
 <section class="skills-section section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-code fa-stack-1x fa-inverse"></i>
     </span>
-    {{ skills.title }}
+    {{ technical_skills.title }}
+      <br>
+      <small>{{ technical_skills.details }}</small>
   </h2>
 
   <div class="skillset">
-    {% for skill in skills.toolset %}
+    {% for skill in technical_skills.toolset %}
     <div class="item">
       <h3 class="level-title">{{ skill.name }}</h3>
       {% assign skill_level = 'width: ' | append: skill.level %}
@@ -22,8 +28,10 @@
     {% endfor %}
   </div>
 </section>
-{% endif %} {% assign soft_skills = site.data.data.soft_skills %} {% if
-soft_skills %}
+{% endif %}
+
+<!--SOFT SKILLS-->
+{% if soft_skills %}
 <section class="skills-section section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -31,6 +39,8 @@ soft_skills %}
       <i class="fas fa-solid fa-business-time fa-stack-1x fa-inverse"></i>
     </span>
     {{ soft_skills.title }}
+      <br>
+      <small>{{ soft_skills.details }}</small>
   </h2>
 
   <div class="skillset">

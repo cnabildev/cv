@@ -54,6 +54,7 @@ career-profile:
   summary: |
     I’m Nabil, a Software Engineer with over 5 years of experience in designing and delivering secure, high-performance web applications. Passionate about solving complex challenges, I continuously refine my skills through daily coding exercises and staying ahead of the latest technology trends. My expertise lies in developing efficient and scalable solutions that seamlessly integrate functionality and security. Whether collaborating with cross-functional teams or leading projects, I am committed to exceeding expectations and driving innovation in every endeavor.
 
+
 education:
   title: Education
   info:
@@ -75,6 +76,8 @@ education:
       details: |
         Completed studies with a focus on science and mathematics, preparing for higher education in technology.
 
+
+
 experiences:
   title: Experiences
   info:
@@ -95,6 +98,8 @@ experiences:
       company: DigitalX Rabat, Morocco
       details: |
         I designed and maintained web applications using PHP, implemented RESTful APIs, optimized MySQL databases, and ensured performance and scalability while collaborating my team.
+
+
 
 certifications:
   title: Certifications
@@ -127,7 +132,7 @@ certifications:
       details: Create responsive websites that adapt to different screen sizes and devices. You'll learn how to use CSS media queries, flexbox, and grid layouts to create a responsive design that looks great on any device.
 
 # projects:
-#     title: Projects
+#     title: Projects v
 #     intro: >
 #       You can list your side projects in this
 #       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -160,40 +165,68 @@ certifications:
 #         authors: Donald E. Knuth
 #         conference: Addison-Wesley, 1968
 
-skills:
+technical_skills:
+
   title: Technical Skills
   toolset:
     - name: PHP/Laravel
       level: 90%
+      details: "Framework architecture, RESTful APIs, Service containers, ORM"
 
-    - name: Node.js/Express
-      level: 75%
+    - name: JavaScript Ecosystem
+      level: 85%
+      details: "TypeScript, ES6+, Node.js, Express, React, Next.js"
 
-    - name: MySQL /Postgresql
+    - name: Database Management
       level: 80%
+      details: "MySQL, PostgreSQL, MongoDB, Redis, Query optimization"
 
-    - name: React/Next.js
-      level: 70%
-
-    - name: DevOps
+    - name: Frontend Development
       level: 75%
+      details: "React/Next.js, Redux, Material UI, Tailwind CSS"
 
-    - name: Cloud Management
+    - name: DevOps & CI/CD
+      level: 75%
+      details: "Docker, Kubernetes, Jenkins, GitHub Actions, AWS"
+
+    - name: Cloud Services
       level: 70%
+      details: "AWS (EC2, S3, RDS), Digital Ocean, Server management"
+
+    - name: Testing & Quality
+      level: 85%
+      details: "PHPUnit,Pest,Jest, React Testing Library, TDD practices"
+
+    - name: Version Control
+      level: 90%
+      details: "Git, GitHub, GitLab, Branching strategies"
 
 soft_skills:
+
   title: Soft Skills
   toolset:
-    - name: Problem-Solving
-      level: 90%
+      - name: Problem-Solving & Architecture
+        level: 90%
+        details: "System design, Performance optimization, Technical solutions"
 
-    - name: Communication
-      level: 90%
+      - name: Technical Communication
+        level: 90%
+        details: "Documentation, presentations, cross-team collaboration"
 
-    - name: Teamwork & Collaboration
-      level: 85%
+      - name: Team Leadership & Collaboration
+        level: 85%
+        details: "Agile methodologies, mentoring, code reviews"
 
-    - name: Adaptability & Learning Agility
-      level: 95%
+      - name: Adaptability & Learning
+        level: 95%
+        details: "Quick technology adoption, continuous learning, knowledge sharing"
+
+      - name: Project Management
+        level: 80%
+        details: "Agile/Scrum, sprint planning, stakeholder management"
+
+      - name: Client Relations
+        level: 85%
+        details: "Requirements gathering, expectation management, delivery"
 
 footer:
