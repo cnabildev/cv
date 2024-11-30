@@ -132,11 +132,8 @@ certifications:
       details: Create responsive websites that adapt to different screen sizes and devices. You'll learn how to use CSS media queries, flexbox, and grid layouts to create a responsive design that looks great on any device.
 
 # projects:
-#     title: Projects v
-#     intro: >
-#       You can list your side projects in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     title: Notable projects
+#     intro: 
 #     assignments:
 #       - title: Velocity
 #         link: "#hook"
