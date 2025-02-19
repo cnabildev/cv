@@ -58,19 +58,19 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: Software Engineer Diploma
-      university: ALX , Holberton school , USA
-      time: 2023- 2025
+    - degree: Software Engineer
+      university: ALX , (Holberton school)
+      time: 2024- 2025
       details: |
         A hands-on software engineering program focused on full-stack development, algorithms, and modern software methodologies.
 
-    - degree: Specialized Technician Diploma
+    - degree: Specialized Technician
       university: OFPPT, MOROCCO
       time: 2011 - 2013
       details: |
         Specialized in IT infrastructure, systems administration, and software development with practical training.
 
-    - degree: High School Diploma
+    - degree: High School
       university: Ibn Khaldoun HS , MOROCCO
       time: 2008- 2011
       details: |
@@ -104,6 +104,14 @@ experiences:
 certifications:
   title: Certifications
   list:
+    - name: Software Engineering
+      start: 2025
+      end:
+      organization: ALX
+      credentialid:
+      credentialurl: https://intranet.alxswe.com/certificates/TH7MYCJeZz
+      credentialname: Certificate
+      details: A hands-on software engineering program focused on full-stack development, algorithms, and modern software methodologies.
     - name: Agile Project Management
       start: 2024
       end:
@@ -112,7 +120,6 @@ certifications:
       credentialurl: https://www.life-global.org/certificate/780114d3-3187-4120-b3b7-9452ddc5f4d8
       credentialname: Certificate
       details: Define MVP, understand iterative vs. incremental development, and analyze Agile tools (Scrum, Kanban). Apply Agile methods to boost project management and product development.
-
     - name: JavaScript Algorithms and Data Structures
       start: 2023
       end:
