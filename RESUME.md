@@ -4,7 +4,7 @@
 
 ## 🧑‍💻 About
 
-Full Stack Web Developer with over **5 years of experience** specializing in high-performance, secure web solutions. Proficient in **PHP, Laravel, Livewire, React, and WordPress**, I leverage modern development practices like **CI/CD** and **Docker** containerization to deliver scalable applications.
+Im CHERRADI NABIL Mouhssine , a full Stack Web Developer with over **6 years of experience** specializing in high-performance, secure web solutions. Proficient in **PHP, Laravel, Livewire, React, and WordPress**, I leverage modern development practices like **CI/CD** and **Docker** containerization to deliver scalable applications.
 
 Passionate about pushing the boundaries of web development, I engage in daily coding challenges to continuously refine my skills and stay ahead of emerging technologies. With a keen focus on **security** and **performance optimization**, I ensure that every project I undertake is not just functional, but also efficient and protected against potential threats.
 
