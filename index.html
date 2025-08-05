@@ -1,23 +1,260 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabil – Laravel Developer | Competitive Programmer</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+      <!-- Print QR Code (only shows in print) -->
+      <img
+        src="data:image/png;base64,YOUR_QR_CODE_HERE"
+        alt="Contact QR Code"
+        class="hidden print:block print-qr"
+      />
 
+      <!-- Header -->
+      <header class="text-center mb-12 relative">
+        <h1 class="text-4xl font-bold mb-2">CHERRADI NABIL Mouhssine</h1>
+        <h2 class="text-2xl text-gray-600 mb-4">
+          Laravel Developer | Competitive Programmer
+        </h2>
+        <div class="flex justify-center space-x-4 flex-wrap">
+          <a
+            href="mailto:hi@cnabil.dev"
+            class="text-blue-600 hover:text-blue-800"
+          >
+            <i class="fas fa-envelope"></i> hi@cnabil.dev
+          </a>
+          <a href="tel:+212634040121" class="text-blue-600 hover:text-blue-800">
+            <i class="fas fa-phone"></i> +212634040121
+          </a>
+          <span class="text-gray-600">
+            <i class="fas fa-location-dot"></i> Tetouan, Morocco
+          </span>
+        </div>
+      </header>
 
-{% include career-profile.html %}
+      <div class="print-cols-2">
+        <!-- Left Column -->
+        <div class="print-no-break">
+          <!-- Professional Highlights -->
+          <section class="mb-12">
+            <h2 class="section-title">Professional Highlights</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="bg-white p-4 rounded-lg shadow print-no-break">
+                <div class="text-3xl font-bold text-blue-600">600+</div>
+                <div class="text-gray-600">Algorithm Problems Solved</div>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow print-no-break">
+                <div class="text-3xl font-bold text-blue-600">50+</div>
+                <div class="text-gray-600">Production Apps Deployed</div>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow print-no-break">
+                <div class="text-3xl font-bold text-blue-600">30+</div>
+                <div class="text-gray-600">Enterprise Clients Served</div>
+              </div>
+            </div>
+          </section>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+          <!-- Technical Skills -->
+          <section class="mb-12 print-no-break">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="space-y-4">
+              <div>
+                <h3 class="text-xl font-semibold mb-3">Core Technologies</h3>
+                <div class="flex flex-wrap">
+                  <span class="skill-tag">Laravel</span>
+                  <span class="skill-tag">PHP</span>
+                  <span class="skill-tag">React</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">MySQL</span>
+                  <span class="skill-tag">Redis</span>
+                </div>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold mb-3">DevOps & Tools</h3>
+                <div class="flex flex-wrap">
+                  <span class="skill-tag">Docker</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">CI/CD</span>
+                  <span class="skill-tag">AWS</span>
+                </div>
+              </div>
+            </div>
+          </section>
 
-{% include experiences.html %}
+          <!-- Education -->
+          <section class="mb-12 print-no-break">
+            <h2 class="section-title">Education</h2>
+            <div class="space-y-4">
+              <div class="mb-6">
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-xl font-semibold">
+                    Holberton School (by ALX)
+                  </h3>
+                  <span class="text-gray-600">2023 – Present</span>
+                </div>
+                <div class="text-gray-600">Software Engineer Diploma</div>
+              </div>
+              <div class="mb-6">
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-xl font-semibold">OFPPT, Morocco</h3>
+                  <span class="text-gray-600">2017 – 2019</span>
+                </div>
+                <div class="text-gray-600">Specialized Software Technician</div>
+              </div>
+            </div>
+          </section>
+        </div>
 
-{% include certifications.html %}
+        <!-- Right Column -->
+        <div>
+          <!-- Professional Experience -->
+          <section class="mb-12">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="space-y-6">
+              <div class="print-no-break">
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-xl font-semibold">Software Engineer</h3>
+                  <span class="text-gray-600">2024 – Present</span>
+                </div>
+                <div class="text-gray-600 italic mb-2">
+                  Freelance via UpWork
+                </div>
+                <ul class="list-disc list-inside text-gray-700">
+                  <li>
+                    Delivered custom software solutions aligned with client
+                    requirements
+                  </li>
+                  <li>
+                    Ensured scalable code architecture and consistent code
+                    quality
+                  </li>
+                </ul>
+              </div>
 
-{% include projects.html %}
+              <div class="print-no-break">
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-xl font-semibold">Full Stack Developer</h3>
+                  <span class="text-gray-600">2020 – 2024</span>
+                </div>
+                <div class="text-gray-600 italic mb-2">CodeNord (Morocco)</div>
+                <ul class="list-disc list-inside text-gray-700">
+                  <li>
+                    Built full-stack web applications with optimized database
+                    and API integration
+                  </li>
+                  <li>
+                    Delivered responsive, scalable features using Laravel and
+                    React
+                  </li>
+                </ul>
+              </div>
 
-{% include oss-contributions.html %}
+              <div class="print-no-break">
+                <div class="flex justify-between items-baseline">
+                  <h3 class="text-xl font-semibold">PHP Developer</h3>
+                  <span class="text-gray-600">2013 – 2020</span>
+                </div>
+                <div class="text-gray-600 italic mb-2">
+                  DigitalX (Rabat, Morocco)
+                </div>
+                <ul class="list-disc list-inside text-gray-700">
+                  <li>
+                    Created RESTful APIs, secured backend services, and
+                    optimized MySQL queries
+                  </li>
+                  <li>
+                    Participated in agile ceremonies and team-based code reviews
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
 
-{% include publications.html %}
+          <!-- Certifications -->
+          <section class="mb-12 print-no-break">
+            <h2 class="section-title">Certifications</h2>
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <i class="fas fa-certificate text-yellow-500 mr-2"></i>
+                <span>AWS Certified Cloud Practitioner (In Progress)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-certificate text-yellow-500 mr-2"></i>
+                <span>Agile Project Management, HP LIFE (2024)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-certificate text-yellow-500 mr-2"></i>
+                <span>
+                  JavaScript Algorithms and Data Structures, freeCodeCamp (2023)
+                </span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
-{% include skills.html %}
+      <!-- Footer Sections -->
+      <div class="print-break-before">
+        <!-- Links -->
+        <section class="mb-12">
+          <h2 class="section-title">Professional Links</h2>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <a
+              href="https://www.linkedin.com/in/cnabil/"
+              class="flex items-center text-blue-600 hover:text-blue-800"
+            >
+              <i class="fab fa-linkedin mr-2"></i> LinkedIn
+            </a>
+            <a
+              href="https://github.com/cnabildev"
+              class="flex items-center text-blue-600 hover:text-blue-800"
+            >
+              <i class="fab fa-github mr-2"></i> GitHub
+            </a>
+            <a
+              href="https://leetcode.com/u/cnabildev/"
+              class="flex items-center text-blue-600 hover:text-blue-800"
+            >
+              <i class="fas fa-code mr-2"></i> LeetCode
+            </a>
+          </div>
+        </section>
 
+        <!-- Testimonials -->
+        <section class="mb-12">
+          <h2 class="section-title">Testimonials</h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow print-no-break">
+              <p class="text-gray-600 italic mb-4">
+                "Nabil is one of the most professional developers I've worked
+                with – always meets deadlines and delivers high-quality code."
+              </p>
+              <p class="font-semibold">— Client from UpWork</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow print-no-break">
+              <p class="text-gray-600 italic mb-4">
+                "Incredibly knowledgeable and responsive. His attention to
+                detail is top-notch."
+              </p>
+              <p class="font-semibold">— Team Lead, CodeNord</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Print Footer -->
+      <div class="hidden print:block print-footer">
+        Updated: February 2024 • hi@cnabil.dev • +212634040121
+      </div>
+    </div>
+  </body>
+</html>

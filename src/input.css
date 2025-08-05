@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-2xl font-bold text-gray-800 mb-4;
+  }
+  .skill-tag {
+    @apply bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
+  }
+  .contact-item {
+    @apply flex items-center space-x-2 text-gray-600;
+  }
+}
+
+/* Enhanced Print styles */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 1.5cm 2cm;
+    /* Add crop marks */
+    marks: crop cross;
+  }
+
+  /* Basic page setup */
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    @apply bg-white text-black m-0 p-0;
+    font-size: 11pt;
+    line-height: 1.3;
+  }
+
+  /* Container adjustments */
+  .container {
+    @apply p-0 max-w-none w-full mx-0;
+    max-width: none !important;
+  }
+
+  /* Header optimizations */
+  header {
+    @apply mb-6 pb-4 border-b border-gray-300 print:break-after-avoid;
+  }
+
+  /* Section handling */
+  section {
+    @apply break-inside-avoid-page mb-6 pb-4;
+  }
+
+  /* Two-column layout for skills and certifications */
+  .print-cols-2 {
+    column-count: 2;
+    column-gap: 2rem;
+    orphans: 2;
+    widows: 2;
+  }
+
+  /* Grid adjustments */
+  .grid {
+    @apply gap-4 print:break-inside-avoid;
+  }
+
+  /* Color and visual adjustments */
+  .shadow, .hover\:shadow-lg {
+    @apply shadow-none;
+  }
+
+  .bg-white, .bg-gray-50, .bg-gray-100 {
+    @apply bg-transparent;
+  }
+
+  .text-gray-600 {
+    @apply text-gray-800;
+  }
+
+  .text-blue-600, .hover\:text-blue-800 {
+    @apply text-black;
+  }
+
+  /* Typography refinements */
+  .text-4xl {
+    @apply text-3xl;
+    font-size: 24pt;
+  }
+
+  .text-3xl {
+    font-size: 18pt;
+  }
+
+  .text-2xl {
+    font-size: 14pt;
+  }
+
+  .text-xl {
+    font-size: 12pt;
+  }
+
+  /* Link handling */
+  a {
+    @apply text-black;
+    text-decoration: none !important;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    @apply text-gray-600 text-xs;
+    font-style: italic;
+  }
+
+  a[href^="mailto:"]:after,
+  a[href^="tel:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* List styling */
+  ul {
+    @apply pl-4;
+  }
+
+  li {
+    @apply mb-1;
+  }
+
+  /* Spacing adjustments */
+  .mb-12 {
+    @apply mb-6;
+  }
+
+  .mb-8 {
+    @apply mb-4;
+  }
+
+  .mb-6 {
+    @apply mb-3;
+  }
+
+  .p-6 {
+    @apply p-4;
+  }
+
+  /* Print-specific utility classes */
+  .print-show {
+    display: block !important;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
+
+  .print-break-before {
+    break-before: page;
+  }
+
+  .print-break-after {
+    break-after: page;
+  }
+
+  .print-no-break {
+    break-inside: avoid;
+  }
+
+  /* QR Code display */
+  .print-qr {
+    @apply absolute top-4 right-4 w-16 h-16;
+  }
+
+  /* Footer for print */
+  .print-footer {
+    @apply fixed bottom-0 left-0 w-full text-center text-xs text-gray-500 py-2;
+    content: "Page " counter(page) " of " counter(pages);
+  }
+
+  /* Skill tags optimization */
+  .skill-tag {
+    @apply bg-transparent border border-gray-300 text-black;
+  }
+
+  /* Icons optimization */
+  .fas, .fab {
+    @apply text-black;
+  }
+}

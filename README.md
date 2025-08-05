@@ -1,90 +1,200 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# Nabil – Laravel Developer | Competitive Programmer
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+---
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+## 🧑‍💻 About
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+Im CHERRADI NABIL Mouhssine , a full Stack Web Developer with over **7 years of experience** specializing in high-performance, secure web solutions. Proficient in **PHP, Laravel, Livewire, React, and WordPress**, I leverage modern development practices like **CI/CD** and **Docker** containerization to deliver scalable applications.
 
-## Installation
+Passionate about pushing the boundaries of web development, I engage in daily coding challenges to continuously refine my skills and stay ahead of emerging technologies. With a keen focus on **security** and **performance optimization**, I ensure that every project I undertake is not just functional, but also efficient and protected against potential threats.
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+---
 
-Change all the details from one place: `_data/data.yml`.
+## 🎯 Professional Highlights
 
-### To preview/edit locally with docker
+| Metric | Achievement                     |
+| ------ | ------------------------------- |
+| 600+   | Algorithm Problems Solved       |
+| 50+    | Production Apps Deployed        |
+| 30+    | Enterprise Clients Served       |
+| 15+    | Open Source Contributions       |
+| 99.9%  | Average System Uptime           |
+| 40%    | Average Performance Improvement |
 
-```sh
-docker-compose up
-```
+---
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+## 🔗 Links
 
-### Local machine
+| Platform    | URL                                                                              |
+| ----------- | -------------------------------------------------------------------------------- |
+| LinkedIn    | [linkedin.com/in/cnabil](https://www.linkedin.com/in/cnabil/)                    |
+| GitHub      | [github.com/cnabildev](https://github.com/cnabildev)                             |
+| X (Twitter) | [x.com/cnabildev](https://x.com/cnabildev)                                       |
+| LeetCode    | [leetcode.com/u/cnabildev](https://leetcode.com/u/cnabildev/)                    |
+| HackerRank  | [hackerrank.com/profile/cnabildev](https://www.hackerrank.com/profile/cnabildev) |
+| Dev.to      | [dev.to/cnabildev](https://dev.to/cnabildev)                                     |
 
-* Get the repo into your machine 
+---
 
-```bash
-git clone https://github.com/sharu725/online-cv.git
-```
+## 💼 Professional Experience
 
-* Install required ruby gems
+### **Software Engineer** _(Freelance via UpWork)_
 
-```bash
-bundle install
-```
+**2024 – 2025**
 
-* Serve the site locally
+- Delivered custom software solutions aligned with client requirements.
+- Ensured scalable code architecture and consistent code quality.
 
-```bash
-bundle exec jekyll serve
-```
+### **Full Stack Developer**, CodeNord (Morocco)
 
-* Navigate to `http://localhost:4000`
+**2020 – 2024**
 
+- Built full-stack web applications with optimized database and API integration.
+- Delivered responsive, scalable features using Laravel and React.
 
-## Skins
+### **PHP Developer**, DigitalX (Rabat, Morocco)
 
-There are 6 color schemes available:
+**2013 – 2020**
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+- Created RESTful APIs, secured backend services, and optimized MySQL queries.
+- Participated in agile ceremonies and team-based code reviews.
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+---
 
-## Credits
+## 🎓 Education
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+### **Holberton School (by ALX)**
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+**Software Engineer Diploma**  
+_2023 – Present_
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+### **OFPPT, Morocco**
 
-## Star History
+**Specialized Software Technician**  
+_2017 – 2019_
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+### **Ibn Khaldoun High School, Morocco**
 
+**High School Diploma**  
+_2014 – 2017_
+
+---
+
+## 🏅 Certifications
+
+- **AWS Certified Cloud Practitioner**, Amazon Web Services _(In Progress)_
+- **Agile Project Management**, HP LIFE _(2024)_
+- **JavaScript Algorithms and Data Structures**, freeCodeCamp _(2023)_
+- **Responsive Web Design**, freeCodeCamp _(2023)_
+
+---
+
+## 🔧 Skills
+
+### **Core Technologies**
+
+- TALL Stack (Tailwind, Alpine.js, Laravel, Livewire)
+- Laravel & PHP Ecosystem
+- React & JavaScript
+- WordPress Development
+- SQL & Database Design
+
+### **DevOps**
+
+- Git & GitHub
+- Docker
+- CI/CD
+
+### **Soft Skills**
+
+- Problem-solving
+- Team collaboration
+- Time management
+- Stress management
+
+---
+
+## ⚙️ Technical Proficiencies
+
+**Modern Stack Development**
+
+- TALL Stack: Tailwind CSS, Alpine.js, Laravel, Livewire
+- Full-Stack Laravel Development: APIs, Events, Jobs, WebSockets
+- React Ecosystem: Next.js, Redux, Material UI
+- Progressive Web Apps (PWA) Development
+
+**Backend & APIs**
+
+- Laravel & PHP 8.x Features
+- RESTful & GraphQL APIs
+- Microservices Architecture
+- Performance Optimization & Caching
+
+**Frontend & UI/UX**
+
+- Tailwind CSS & Component Design
+- Alpine.js & Modern JavaScript
+- Responsive & Mobile-First Design
+- Web Accessibility (WCAG)
+
+**DevOps & Infrastructure**
+
+- Docker & Container Orchestration
+- CI/CD (GitHub Actions, Jenkins)
+- AWS Cloud Services
+- Performance Monitoring & Logging
+
+**Database & Caching**
+
+- MySQL Query Optimization
+- Redis & Cache Management
+- Database Design & Migration
+- Data Security & Encryption
+
+**Best Practices**
+
+- Test-Driven Development (PHPUnit, Pest)
+- Git Flow & Code Review
+- Agile & Scrum Methodologies
+- Security & Performance Optimization
+
+---
+
+## 💬 Testimonials
+
+> _"Nabil is one of the most professional developers I’ve worked with – always meets deadlines and delivers high-quality code."_  
+> — _Client from UpWork_
+
+> _"Incredibly knowledgeable and responsive. His attention to detail is top-notch."_  
+> — _Team Lead, CodeNord_
+
+---
+
+## 🎯 Services
+
+### ✅ High-Performance Web Applications
+
+Building blazing-fast web applications using the TALL stack (Tailwind, Alpine.js, Laravel, Livewire) with focus on performance and user experience.
+
+### ✅ Enterprise E-Commerce Solutions
+
+Scalable e-commerce platforms with advanced features like real-time inventory, multi-currency support, and sophisticated payment integrations.
+
+### ✅ Custom SaaS Development
+
+End-to-end SaaS application development with subscription management, multi-tenancy, and comprehensive analytics.
+
+### ✅ API & System Integration
+
+Design and implementation of secure, scalable APIs with comprehensive documentation, monitoring, and performance optimization.
+
+---
+
+## 📍 Get in Touch
+
+| Method      | Details                                    |
+| ----------- | ------------------------------------------ |
+| 📧 Email    | hi@cnabil.dev                              |
+| 📞 Phone    | +212634040121                              |
+| 📍 Location | Tetouan, Morocco                           |
+| 📅 Book     | [Calendly](https://calendly.com/cnabildev) |
