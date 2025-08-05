@@ -4,6 +4,7 @@
 
 ## 🧑‍💻 About
 
+![Profile Photo](/images/profile/main.jpeg)
 Im CHERRADI NABIL Mouhssine , a full Stack Web Developer with over **7 years of experience** specializing in high-performance, secure web solutions. Proficient in **PHP, Laravel, Livewire, React, and WordPress**, I leverage modern development practices like **CI/CD** and **Docker** containerization to deliver scalable applications.
 
 Passionate about pushing the boundaries of web development, I engage in daily coding challenges to continuously refine my skills and stay ahead of emerging technologies. With a keen focus on **security** and **performance optimization**, I ensure that every project I undertake is not just functional, but also efficient and protected against potential threats.
@@ -82,10 +83,38 @@ _2014 – 2017_
 
 ## 🏅 Certifications
 
+### **Cloud & DevOps**
+
 - **AWS Certified Cloud Practitioner**, Amazon Web Services _(In Progress)_
+  - Comprehensive understanding of AWS Cloud concepts, services, and architecture
+  - Security best practices and compliance in cloud environments
+  - Cost management and pricing models for cloud services
+  - Core AWS services: EC2, S3, RDS, Lambda, and CloudFront
+
+### **Project Management & Methodologies**
+
 - **Agile Project Management**, HP LIFE _(2024)_
+  - Define and implement MVP strategies for rapid product development
+  - Master iterative and incremental development approaches
+  - Practical experience with Agile frameworks (Scrum, Kanban)
+  - Sprint planning, backlog management, and team velocity optimization
+
+### **Development & Programming**
+
 - **JavaScript Algorithms and Data Structures**, freeCodeCamp _(2023)_
+
+  - Advanced algorithmic problem-solving techniques
+  - Implementation of complex data structures
+  - Time and space complexity analysis
+  - Key areas: Dynamic Programming, Graph Algorithms, Tree Traversal
+  - 300+ coding challenges completed
+
 - **Responsive Web Design**, freeCodeCamp _(2023)_
+  - Modern CSS frameworks and methodologies
+  - Advanced responsive design techniques
+  - Mobile-first development approach
+  - Accessibility compliance (WCAG guidelines)
+  - Cross-browser compatibility optimization
 
 ---
 
